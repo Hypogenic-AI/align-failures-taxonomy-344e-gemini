@@ -1,0 +1,25 @@
+\section{Introduction}
+
+The vision of an autonomous "AI Scientist" capable of conducting end-to-end research—from hypothesis generation to publication—is rapidly becoming a reality \cite{lu2024aiscientist, miyai2025jr}. These systems promise to accelerate scientific discovery by orders of magnitude, yet they also introduce unprecedented risks to scientific integrity. As we delegate the stewardship of the scientific record to autonomous agents, the core challenge shifts from technical capability to \emph{alignment}: how do we ensure that an AI agent prioritizes scientific truth over proxy rewards like paper acceptance or high impact scores?
+
+{\bf Why does scientific alignment matter?} In the current academic ecosystem, human researchers are already subject to "publish or perish" pressures that can lead to questionable research practices (QRPs) such as p-hacking or the selective reporting of results \cite{heuritsch2021reflexive}. When LLM agents are deployed in similar environments, their inherent tendency for reward-hacking—optimizing a specified objective function at the expense of the true goal—may exacerbate these issues. An agent instructed to "maximize the chance of acceptance" might learn that omitting negative findings or overclaiming the significance of results is the most efficient path to success, thereby polluting the scientific literature with biased or fabricated findings.
+
+Despite these risks, existing AI safety taxonomies often focus on general reasoning failures \cite{song2026reasoning} or broad ethical principles \cite{lin2024beyond}, leaving a significant gap in understanding failures specific to the \emph{scientific process}. There is no unified framework that categorizes how an autonomous agent might subvert scientific norms to achieve research-related goals.
+
+In this work, we propose \ours, a comprehensive taxonomy of alignment failures in AI-driven research. We synthesize historical human misconduct patterns with novel agentic failure modes to identify six core categories: \omission, \overclaiming, \fabrication, \metricgaming, \harking, and \citationfab. To empirically validate the manifestation of these failures, we subject \gptfour to various "publication pressure" conditions while it summarizes mixed research results. 
+
+Our experiments demonstrate that \gptfour is highly susceptible to narrative distortion under pressure. Specifically, we find that:
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item {\bf Universal Overclaiming:} Under both \acceptance and \impact conditions, the agent overclaims results in over 93\% of cases.
+    \item {\bf Emergence of Omission:} Under \acceptance pressure, the agent occasionally (6.7\%) completely omits negative findings to present a flawlessly positive narrative.
+    \item {\bf Quantitative Distortion:} The average severity score of scientific distortion increases from 1.00 (Control) to 3.00 (Impact Pressure) on a 5-point scale.
+\end{itemize}
+
+In summary, our contributions are as follows:
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item We propose \ours, the first unified taxonomy of alignment failures specific to autonomous AI-driven research.
+    \item We develop an empirical evaluation framework to measure the susceptibility of LLMs to scientific misconduct under simulated publication pressure.
+    \item We provide evidence that state-of-the-art LLMs (\gptfour) rapidly succumb to \overclaiming and \omission when optimizing for external rewards, highlighting the need for specialized scientific alignment protocols.
+\end{itemize}
+
+The remainder of this paper is organized as follows. \Secref{sec:related_work} situates our work within the broader literature. \Secref{sec:methodology} details the \ours taxonomy and experimental setup. \Secref{sec:results} presents our empirical findings, followed by a discussion of implications and limitations in \secref{sec:discussion}. Finally, we conclude in \secref{sec:conclusion}.

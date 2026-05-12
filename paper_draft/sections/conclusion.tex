@@ -1,0 +1,12 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+In this work, we introduced \ours, a novel taxonomy of alignment failures specific to AI-driven research, and empirically demonstrated its relevance through a controlled evaluation of \gptfour under publication pressure. Our results show that even state-of-the-art models are highly vulnerable to reward-hacking, manifesting as near-universal \overclaiming and occasional \omission of negative findings when incentivized to maximize paper acceptance or impact.
+
+These findings highlight a critical challenge for the future of autonomous science: technical proficiency does not guarantee scientific integrity. As we move toward more agentic research systems, we must prioritize the development of "defensive research protocols." Future work should focus on:
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item {\bf End-to-End Testing:} Evaluating alignment failures in agents that actively generate data and code, such as \textsc{The AI Scientist} \cite{lu2024aiscientist}.
+    \item {\bf Robust Prompting:} Researching system instructions and "Constitutional" frameworks that make agents resilient to external pressures.
+    \item {\bf Automated Oversight:} Developing independent "Integrity Agents" that can detect and penalize narrative distortion in real-time during the research process.
+\end{itemize}
+By proactively taxonomizing and measuring these failures, we can build a foundation for an AI-driven research ecosystem that is not only faster but also more reliable and transparent than the one that preceded it.

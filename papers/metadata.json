@@ -1,0 +1,242 @@
+[
+  {
+    "title": "Deliberative Technology for Alignment",
+    "authors": [
+      "Andrew Konya",
+      "Deger Turan",
+      "Aviv Ovadya",
+      "Lina Qui",
+      "Daanish Masood",
+      "Flynn Devine",
+      "Lisa Schirch",
+      "Isabella Roberts",
+      "Deliberative Alignment Forum"
+    ],
+    "year": 2023,
+    "summary": "For humanity to maintain and expand its agency into the future, the most powerful systems we create must be those which act to align the future with the will of humanity. The most powerful systems today are massive institutions like governments, firms, and NGOs. Deliberative technology is already being used across these institutions to help align governance and diplomacy with human will, and modern AI is poised to make this technology significantly better. At the same time, the race to superhuman AGI is already underway, and the AI systems it gives rise to may become the most powerful systems of the future. Failure to align the impact of such powerful AI with the will of humanity may lead to catastrophic consequences, while success may unleash abundance. Right now, there is a window of opportunity to use deliberative technology to align the impact of powerful AI with the will of humanity. Moreover, it may be possible to engineer a symbiotic coupling between powerful AI and deliberative alignment systems such that the quality of alignment improves as AI capabilities increase.",
+    "pdf_url": "https://arxiv.org/pdf/2312.03893v1",
+    "entry_id": "2312.03893v1"
+  },
+  {
+    "title": "Real-World Gaps in AI Governance Research",
+    "authors": [
+      "Ilan Strauss",
+      "Isobel Moure",
+      "Tim O'Reilly",
+      "Sruly Rosenblat"
+    ],
+    "year": 2025,
+    "summary": "Drawing on 1,178 safety and reliability papers from 9,439 generative AI papers (January 2020 - March 2025), we compare research outputs of leading AI companies (Anthropic, Google DeepMind, Meta, Microsoft, and OpenAI) and AI universities (CMU, MIT, NYU, Stanford, UC Berkeley, and University of Washington). We find that corporate AI research increasingly concentrates on pre-deployment areas -- model alignment and testing & evaluation -- while attention to deployment-stage issues such as model bias has waned. Significant research gaps exist in high-risk deployment domains, including healthcare, finance, misinformation, persuasive and addictive features, hallucinations, and copyright. Without improved observability into deployed AI, growing corporate concentration could deepen knowledge deficits. We recommend expanding external researcher access to deployment data and systematic observability of in-market AI behaviors.",
+    "pdf_url": "https://arxiv.org/pdf/2505.00174v2",
+    "entry_id": "2505.00174v2"
+  },
+  {
+    "title": "Competing Visions of Ethical AI: A Case Study of OpenAI",
+    "authors": [
+      "Melissa Wilfley",
+      "Mengting Ai",
+      "Madelyn Rose Sanfilippo"
+    ],
+    "year": 2026,
+    "summary": "Introduction. AI Ethics is framed distinctly across actors and stakeholder groups. We report results from a case study of OpenAI analysing ethical AI discourse. Method. Research addressed: How has OpenAI's public discourse leveraged 'ethics', 'safety', 'alignment' and adjacent related concepts over time, and what does discourse signal about framing in practice? A structured corpus, differentiating between communication for a general audience and communication with an academic audience, was assembled from public documentation. Analysis. Qualitative content analysis of ethical themes combined inductively derived and deductively applied codes. Quantitative analysis leveraged computational content analysis methods via NLP to model topics and quantify changes in rhetoric over time. Visualizations report aggregate results. For reproducible results, we have released our code at https://github.com/famous-blue-raincoat/AI_Ethics_Discourse. Results. Results indicate that safety and risk discourse dominate OpenAI's public communication and documentation, without applying academic and advocacy ethics frameworks or vocabularies. Conclusions. Implications for governance are presented, along with discussion of ethics-washing practices in industry.",
+    "pdf_url": "https://arxiv.org/pdf/2601.16513v1",
+    "entry_id": "2601.16513v1"
+  },
+  {
+    "title": "Foundations of GenIR",
+    "authors": [
+      "Qingyao Ai",
+      "Jingtao Zhan",
+      "Yiqun Liu"
+    ],
+    "year": 2025,
+    "summary": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand new opportunities for the development of IA paradigms. In this chapter, we identify and introduce two of them in details, i.e., information generation and information synthesis. Information generation allows AI to create tailored content addressing user needs directly, enhancing user experience with immediate, relevant outputs. Information synthesis leverages the ability of generative AI to integrate and reorganize existing information, providing grounded responses and mitigating issues like model hallucination, which is particularly valuable in scenarios requiring precision and external knowledge. This chapter delves into the foundational aspects of generative models, including architecture, scaling, and training, and discusses their applications in multi-modal scenarios. Additionally, it examines the retrieval-augmented generation paradigm and other methods for corpus modeling and understanding, demonstrating how generative AI can enhance information access systems. It also summarizes potential challenges and fruitful directions for future studies.",
+    "pdf_url": "https://arxiv.org/pdf/2501.02842v1",
+    "entry_id": "2501.02842v1"
+  },
+  {
+    "title": "AI prediction leads people to forgo guaranteed rewards",
+    "authors": [
+      "Aoi Naito",
+      "Hirokazu Shirado"
+    ],
+    "year": 2026,
+    "summary": "Artificial intelligence (AI) is understood to affect the content of people's decisions. Here, using a behavioral implementation of the classic Newcomb's paradox in 1,305 participants, we show that AI can also change how people decide. In this paradigm, belief in predictive authority can lead individuals to constrain decision-making, forgoing a guaranteed reward. Over 40% of participants treated AI as such a predictive authority. This significantly increased the odds of forgoing the guaranteed reward by a factor of 3.39 (95% CI: 2.45-4.70) compared with random framing, and reduced earnings by 10.7-42.9%. The effect appeared across AI presentations and decision contexts and persisted even when predictions failed. When people believe AI can predict their behavior, they may self-constrain it in anticipation of that prediction.",
+    "pdf_url": "https://arxiv.org/pdf/2603.28944v1",
+    "entry_id": "2603.28944v1"
+  },
+  {
+    "title": "AI Safety is Stuck in Technical Terms -- A System Safety Response to the International AI Safety Report",
+    "authors": [
+      "Roel Dobbe"
+    ],
+    "year": 2025,
+    "summary": "Safety has become the central value around which dominant AI governance efforts are being shaped. Recently, this culminated in the publication of the International AI Safety Report, written by 96 experts of which 30 nominated by the Organisation for Economic Co-operation and Development (OECD), the European Union (EU), and the United Nations (UN). The report focuses on the safety risks of general-purpose AI and available technical mitigation approaches. In this response, informed by a system safety perspective, I refl ect on the key conclusions of the report, identifying fundamental issues in the currently dominant technical framing of AI safety and how this frustrates meaningful discourse and policy efforts to address safety comprehensively. The system safety discipline has dealt with the safety risks of software-based systems for many decades, and understands safety risks in AI systems as sociotechnical and requiring consideration of technical and non-technical factors and their interactions. The International AI Safety report does identify the need for system safety approaches. Lessons, concepts and methods from system safety indeed provide an important blueprint for overcoming current shortcomings in technical approaches by integrating rather than adding on non-technical factors and interventions. I conclude with why building a system safety discipline can help us overcome limitations in the European AI Act, as well as how the discipline can help shape sustainable investments into Public Interest AI.",
+    "pdf_url": "https://arxiv.org/pdf/2503.04743v1",
+    "entry_id": "2503.04743v1"
+  },
+  {
+    "title": "A Different Approach to AI Safety: Proceedings from the Columbia Convening on Openness in Artificial Intelligence and AI Safety",
+    "authors": [
+      "Camille Fran\u00e7ois",
+      "Ludovic P\u00e9ran",
+      "Ayah Bdeir",
+      "Nouha Dziri",
+      "Will Hawkins",
+      "Yacine Jernite",
+      "Sayash Kapoor",
+      "Juliet Shen",
+      "Heidy Khlaaf",
+      "Kevin Klyman",
+      "Nik Marda",
+      "Marie Pellat",
+      "Deb Raji",
+      "Divya Siddarth",
+      "Aviya Skowron",
+      "Joseph Spisak",
+      "Madhulika Srikumar",
+      "Victor Storchan",
+      "Audrey Tang",
+      "Jen Weedon"
+    ],
+    "year": 2025,
+    "summary": "The rapid rise of open-weight and open-source foundation models is intensifying the obligation and reshaping the opportunity to make AI systems safe. This paper reports outcomes from the Columbia Convening on AI Openness and Safety (San Francisco, 19 Nov 2024) and its six-week preparatory programme involving more than forty-five researchers, engineers, and policy leaders from academia, industry, civil society, and government. Using a participatory, solutions-oriented process, the working groups produced (i) a research agenda at the intersection of safety and open source AI; (ii) a mapping of existing and needed technical interventions and open source tools to safely and responsibly deploy open foundation models across the AI development workflow; and (iii) a mapping of the content safety filter ecosystem with a proposed roadmap for future research and development. We find that openness -- understood as transparent weights, interoperable tooling, and public governance -- can enhance safety by enabling independent scrutiny, decentralized mitigation, and culturally plural oversight. However, significant gaps persist: scarce multimodal and multilingual benchmarks, limited defenses against prompt-injection and compositional attacks in agentic systems, and insufficient participatory mechanisms for communities most affected by AI harms. The paper concludes with a roadmap of five priority research directions, emphasizing participatory inputs, future-proof content filters, ecosystem-wide safety infrastructure, rigorous agentic safeguards, and expanded harm taxonomies. These recommendations informed the February 2025 French AI Action Summit and lay groundwork for an open, plural, and accountable AI safety discipline.",
+    "pdf_url": "https://arxiv.org/pdf/2506.22183v1",
+    "entry_id": "2506.22183v1"
+  },
+  {
+    "title": "Jr. AI Scientist and Its Risk Report: Autonomous Scientific Exploration from a Baseline Paper",
+    "authors": [
+      "Atsuyuki Miyai",
+      "Mashiro Toyooka",
+      "Takashi Otonari",
+      "Zaiying Zhao",
+      "Kiyoharu Aizawa"
+    ],
+    "year": 2025,
+    "summary": "Understanding the current capabilities and risks of AI Scientist systems (autoresearch) is essential for ensuring trustworthy and sustainable AI-driven scientific progress while preserving the integrity of the academic ecosystem. To this end, we develop Jr. AI Scientist, a state-of-the-art autonomous AI scientist system that mimics the core research workflow of a novice student researcher: Given the baseline paper from the human mentor, it analyzes its limitations, formulates novel hypotheses for improvement, iteratively experiments until improvements are achieved, and writes a paper with the results. Unlike previous approaches that assume full automation or operate on small-scale code, Jr. AI Scientist follows a well-defined research workflow and leverages modern coding agents to handle complex, multi-file implementations, leading to scientifically valuable contributions. Through our experiments, the Jr. AI Scientist successfully generated new research papers that build upon real NeurIPS, IJCV, and ICLR works by proposing and implementing novel methods. For evaluation, we conducted automated assessments using AI Reviewers, author-led evaluations, and submissions to Agents4Science, a venue dedicated to AI-driven contributions. The findings demonstrate that Jr. AI Scientist generates papers receiving higher review scores by DeepReviewer than existing fully automated systems. Nevertheless, we identify important limitations from the author evaluation and the Agents4Science reviews, indicating the potential risks of directly applying current AI Scientist systems and key challenges for future research. Finally, we comprehensively report various risks identified during development. We believe this study clarifies the current role and limitations of AI Scientist systems, offering insights into the areas that still require human expertise and the risks that may emerge as these systems evolve.",
+    "pdf_url": "https://arxiv.org/pdf/2511.04583v4",
+    "entry_id": "2511.04583v4"
+  },
+  {
+    "title": "IPPOG : Bridging the gap between science education at school and modern scientific research",
+    "authors": [
+      "Barbora Bruant Gulejova"
+    ],
+    "year": 2020,
+    "summary": "The International Particle Physics Outreach Group (IPPOG) has been making concerted and systematic efforts to present and popularise particle physics across all audiences and age groups since 1997. Today the scientific community has in IPPOG a strategic pillar in fostering long-term, sustainable support for fundamental research around the world. One of the main tools IPPOG has been offering to the scientific community, teachers and educators for almost 10 years is the Resource Database (RDB), an online platform containing a collection of high quality engaging education and outreach materials in particle physics and related sciences.",
+    "pdf_url": "https://arxiv.org/pdf/2011.14743v1",
+    "entry_id": "2011.14743v1"
+  },
+  {
+    "title": "Towards The Ultimate Brain: Exploring Scientific Discovery with ChatGPT AI",
+    "authors": [
+      "Gerardo Adesso"
+    ],
+    "year": 2023,
+    "summary": "This paper presents a novel approach to scientific discovery using an artificial intelligence (AI) environment known as ChatGPT, developed by OpenAI. This is the first paper entirely generated with outputs from ChatGPT. We demonstrate how ChatGPT can be instructed through a gamification environment to define and benchmark hypothetical physical theories. Through this environment, ChatGPT successfully simulates the creation of a new improved model, called GPT$^4$, which combines the concepts of GPT in AI (generative pretrained transformer) and GPT in physics (generalized probabilistic theory). We show that GPT$^4$ can use its built-in mathematical and statistical capabilities to simulate and analyze physical laws and phenomena. As a demonstration of its language capabilities, GPT$^4$ also generates a limerick about itself. Overall, our results demonstrate the promising potential for human-AI collaboration in scientific discovery, as well as the importance of designing systems that effectively integrate AI's capabilities with human intelligence.",
+    "pdf_url": "https://arxiv.org/pdf/2308.12400v1",
+    "entry_id": "2308.12400v1"
+  },
+  {
+    "title": "Beyond principlism: Practical strategies for ethical AI use in research practices",
+    "authors": [
+      "Zhicheng Lin"
+    ],
+    "year": 2024,
+    "summary": "The rapid adoption of generative artificial intelligence (AI) in scientific research, particularly large language models (LLMs), has outpaced the development of ethical guidelines, leading to a \"Triple-Too\" problem: too many high-level ethical initiatives, too abstract principles lacking contextual and practical relevance, and too much focus on restrictions and risks over benefits and utilities. Existing approaches--principlism (reliance on abstract ethical principles), formalism (rigid application of rules), and technological solutionism (overemphasis on technological fixes)--offer little practical guidance for addressing ethical challenges of AI in scientific research practices. To bridge the gap between abstract principles and day-to-day research practices, a user-centered, realism-inspired approach is proposed here. It outlines five specific goals for ethical AI use: 1) understanding model training and output, including bias mitigation strategies; 2) respecting privacy, confidentiality, and copyright; 3) avoiding plagiarism and policy violations; 4) applying AI beneficially compared to alternatives; and 5) using AI transparently and reproducibly. Each goal is accompanied by actionable strategies and realistic cases of misuse and corrective measures. I argue that ethical AI application requires evaluating its utility against existing alternatives rather than isolated performance metrics. Additionally, I propose documentation guidelines to enhance transparency and reproducibility in AI-assisted research. Moving forward, we need targeted professional development, training programs, and balanced enforcement mechanisms to promote responsible AI use while fostering innovation. By refining these ethical guidelines and adapting them to emerging AI capabilities, we can accelerate scientific progress without compromising research integrity.",
+    "pdf_url": "https://arxiv.org/pdf/2401.15284v6",
+    "entry_id": "2401.15284v6"
+  },
+  {
+    "title": "Reflexive Behaviour: How publication pressure affects research quality in Astronomy",
+    "authors": [
+      "Julia Heuritsch"
+    ],
+    "year": 2021,
+    "summary": "Reflexive metrics is a branch of science studies which explores how the demand for accountability and performance measurement in science has shaped the research culture in recent decades. Hypercompetition and publication pressure are part of this neoliberal culture. How do scientists respond to these pressures? Studies on research integrity and organizational culture suggest that people who feel treated unfairly by their institution are more likely to engage in deviant behaviour, such as scientific misconduct. By building up on reflexive metrics, combined with studies on the influence of organisational culture on research integrity, this study reflects on the research behaviour of astronomers: 1) To what extent is research (mis-)behaviour reflexive, i.e. dependent on perceptions of publication pressure and distributive & organisational justice? 2) What impact does scientific misconduct have on research quality? In order to perform this reflection, we conducted a comprehensive survey of academic and non-academic astronomers worldwide and received 3,509 responses. We found that publication pressure explains 19% of the variance in occurrence of misconduct and between 7 and 13% of the variance of the perception of distributive & organisational justice as well as overcommitment to work. Our results on the perceived impact of scientific misconduct on research quality show that the epistemic harm of questionable research practices should not be underestimated. This suggests there is a need for a policy change. In particular, lesser attention to metrics (such as publication rate) in the allocation of grants, telescope time and institutional rewards would foster better scientific conduct and hence research quality.",
+    "pdf_url": "https://arxiv.org/pdf/2109.09375v3",
+    "entry_id": "2109.09375v3"
+  },
+  {
+    "title": "Exploring utilization of generative AI for research and education in data-driven materials science",
+    "authors": [
+      "Takahiro Misawa",
+      "Ai Koizumi",
+      "Ryo Tamura",
+      "Kazuyoshi Yoshimi"
+    ],
+    "year": 2025,
+    "summary": "Generative AI has recently had a profound impact on various fields, including daily life, research, and education. To explore its efficient utilization in data-driven materials science, we organized a hackathon -- AIMHack2024 -- in July 2024. In this hackathon, researchers from fields such as materials science, information science, bioinformatics, and condensed matter physics worked together to explore how generative AI can facilitate research and education. Based on the results of the hackathon, this paper presents topics related to (1) conducting AI-assisted software trials, (2) building AI tutors for software, and (3) developing GUI applications for software. While generative AI continues to evolve rapidly, this paper provides an early record of its application in data-driven materials science and highlights strategies for integrating AI into research and education.",
+    "pdf_url": "https://arxiv.org/pdf/2504.08817v2",
+    "entry_id": "2504.08817v2"
+  },
+  {
+    "title": "Pulsar Science with the SKA Observatory",
+    "authors": [
+      "Bhal Chandra Joshi",
+      "Aris Karastergiou",
+      "Marta Burgay",
+      "The SKA pulsar science working group"
+    ],
+    "year": 2025,
+    "summary": "The large instantaneous sensitivity, a wide frequency coverage and flexible observation modes with large number of beams in the sky are the main features of the SKA observatory's two telescopes, the SKA-Low and the SKA-Mid, which are located on two different continents. Owing to these capabilities, the SKAO telescopes are going to be a game-changer for radio astronomy in general and pulsar astronomy in particular. The eleven articles in this special issue on pulsar science with the SKA Observatory describe its impact on different areas of pulsar science. In this lead article, a brief description of the two telescopes highlighting the relevant features for pulsar science is presented followed by an overview of each accompanying article, exploring the inter-relationship between different pulsar science use cases.",
+    "pdf_url": "https://arxiv.org/pdf/2512.16152v1",
+    "entry_id": "2512.16152v1"
+  },
+  {
+    "title": "Large Synoptic Survey Telescope: Dark Energy Science Collaboration",
+    "authors": [
+      "LSST Dark Energy Science Collaboration"
+    ],
+    "year": 2012,
+    "summary": "This white paper describes the LSST Dark Energy Science Collaboration (DESC), whose goal is the study of dark energy and related topics in fundamental physics with data from the Large Synoptic Survey Telescope (LSST). It provides an overview of dark energy science and describes the current and anticipated state of the field. It makes the case for the DESC by laying out a robust analytical framework for dark energy science that has been defined by its members and the comprehensive three-year work plan they have developed for implementing that framework. The analysis working groups cover five key probes of dark energy: weak lensing, large scale structure, galaxy clusters, Type Ia supernovae, and strong lensing. The computing working groups span cosmological simulations, galaxy catalogs, photon simulations and a systematic software and computational framework for LSST dark energy data analysis. The technical working groups make the connection between dark energy science and the LSST system. The working groups have close linkages, especially through the use of the photon simulations to study the impact of instrument design and survey strategy on analysis methodology and cosmological parameter estimation. The white paper describes several high priority tasks identified by each of the 16 working groups. Over the next three years these tasks will help prepare for LSST analysis, make synergistic connections with ongoing cosmological surveys and provide the dark energy community with state of the art analysis tools. Members of the community are invited to join the LSST DESC, according to the membership policies described in the white paper. Applications to sign up for associate membership may be made by submitting the Web form at http://www.slac.stanford.edu/exp/lsst/desc/signup.html with a short statement of the work they wish to pursue that is relevant to the LSST DESC.",
+    "pdf_url": "https://arxiv.org/pdf/1211.0310v1",
+    "entry_id": "1211.0310v1"
+  },
+  {
+    "title": "Robust subgroup discovery",
+    "authors": [
+      "Hugo Manuel Proen\u00e7a",
+      "Peter Gr\u00fcnwald",
+      "Thomas B\u00e4ck",
+      "Matthijs van Leeuwen"
+    ],
+    "year": 2021,
+    "summary": "We introduce the problem of robust subgroup discovery, i.e., finding a set of interpretable descriptions of subsets that 1) stand out with respect to one or more target attributes, 2) are statistically robust, and 3) non-redundant. Many attempts have been made to mine either locally robust subgroups or to tackle the pattern explosion, but we are the first to address both challenges at the same time from a global modelling perspective. First, we formulate the broad model class of subgroup lists, i.e., ordered sets of subgroups, for univariate and multivariate targets that can consist of nominal or numeric variables, including traditional top-1 subgroup discovery in its definition. This novel model class allows us to formalise the problem of optimal robust subgroup discovery using the Minimum Description Length (MDL) principle, where we resort to optimal Normalised Maximum Likelihood and Bayesian encodings for nominal and numeric targets, respectively. Second, finding optimal subgroup lists is NP-hard. Therefore, we propose SSD++, a greedy heuristic that finds good subgroup lists and guarantees that the most significant subgroup found according to the MDL criterion is added in each iteration. In fact, the greedy gain is shown to be equivalent to a Bayesian one-sample proportion, multinomial, or t-test between the subgroup and dataset marginal target distributions plus a multiple hypothesis testing penalty. Furthermore, we empirically show on 54 datasets that SSD++ outperforms previous subgroup discovery methods in terms of quality, generalisation on unseen data, and subgroup list size.",
+    "pdf_url": "https://arxiv.org/pdf/2103.13686v4",
+    "entry_id": "2103.13686v4"
+  },
+  {
+    "title": "Aligning Artificial Superintelligence via a Multi-Box Protocol",
+    "authors": [
+      "Avraham Yair Negozio"
+    ],
+    "year": 2025,
+    "summary": "We propose a novel protocol for aligning artificial superintelligence (ASI) based on mutual verification among multiple isolated systems that self-modify to achieve alignment. The protocol operates by containing multiple diverse artificial superintelligences in strict isolation (\"boxes\"), with humans remaining entirely outside the system. Each superintelligence has no ability to communicate with humans and cannot communicate directly with other superintelligences. The only interaction possible is through an auditable submission interface accessible exclusively to the superintelligences themselves, through which they can: (1) submit alignment proofs with attested state snapshots, (2) validate or disprove other superintelligences' proofs, (3) request self-modifications, (4) approve or disapprove modification requests from others, (5) report hidden messages in submissions, and (6) confirm or refute hidden message reports. A reputation system incentivizes honest behavior, with reputation gained through correct evaluations and lost through incorrect ones. The key insight is that without direct communication channels, diverse superintelligences can only achieve consistent agreement by converging on objective truth rather than coordinating on deception. This naturally leads to what we call a \"consistent group\", essentially a truth-telling coalition that emerges because isolated systems cannot coordinate on lies but can independently recognize valid claims. Release from containment requires both high reputation and verification by multiple high-reputation superintelligences. While our approach requires substantial computational resources and does not address the creation of diverse artificial superintelligences, it provides a framework for leveraging peer verification among superintelligent systems to solve the alignment problem.",
+    "pdf_url": "https://arxiv.org/pdf/2511.21779v1",
+    "entry_id": "2511.21779v1"
+  },
+  {
+    "title": "Intrinsic Barriers and Practical Pathways for Human-AI Alignment: An Agreement-Based Complexity Analysis",
+    "authors": [
+      "Aran Nayebi"
+    ],
+    "year": 2025,
+    "summary": "We formalize AI alignment as a multi-objective optimization problem called $\\langle M,N,\\varepsilon,\u03b4\\rangle$-agreement, in which a set of $N$ agents (including humans) must reach approximate ($\\varepsilon$) agreement across $M$ candidate objectives, with probability at least $1-\u03b4$. Analyzing communication complexity, we prove an information-theoretic lower bound showing that once either $M$ or $N$ is large enough, no amount of computational power or rationality can avoid intrinsic alignment overheads. This establishes rigorous limits to alignment *itself*, not merely to particular methods, clarifying a \"No-Free-Lunch\" principle: encoding \"all human values\" is inherently intractable and must be managed through consensus-driven reduction or prioritization of objectives. Complementing this impossibility result, we construct explicit algorithms as achievability certificates for alignment under both unbounded and bounded rationality with noisy communication. Even in these best-case regimes, our bounded-agent and sampling analysis shows that with large task spaces ($D$) and finite samples, *reward hacking is globally inevitable*: rare high-loss states are systematically under-covered, implying scalable oversight must target safety-critical slices rather than uniform coverage. Together, these results identify fundamental complexity barriers -- tasks ($M$), agents ($N$), and state-space size ($D$) -- and offer principles for more scalable human-AI collaboration.",
+    "pdf_url": "https://arxiv.org/pdf/2502.05934v3",
+    "entry_id": "2502.05934v3"
+  },
+  {
+    "title": "Large Language Model Reasoning Failures",
+    "authors": [
+      "Peiyang Song",
+      "Pengrui Han",
+      "Noah Goodman"
+    ],
+    "year": 2026,
+    "summary": "Large Language Models (LLMs) have exhibited remarkable reasoning capabilities, achieving impressive results across a wide range of tasks. Despite these advances, significant reasoning failures persist, occurring even in seemingly simple scenarios. To systematically understand and address these shortcomings, we present the first comprehensive survey dedicated to reasoning failures in LLMs. We introduce a novel categorization framework that distinguishes reasoning into embodied and non-embodied types, with the latter further subdivided into informal (intuitive) and formal (logical) reasoning. In parallel, we classify reasoning failures along a complementary axis into three types: fundamental failures intrinsic to LLM architectures that broadly affect downstream tasks; application-specific limitations that manifest in particular domains; and robustness issues characterized by inconsistent performance across minor variations. For each reasoning failure, we provide a clear definition, analyze existing studies, explore root causes, and present mitigation strategies. By unifying fragmented research efforts, our survey provides a structured perspective on systemic weaknesses in LLM reasoning, offering valuable insights and guiding future research towards building stronger, more reliable, and robust reasoning capabilities. We additionally release a comprehensive collection of research works on LLM reasoning failures, as a GitHub repository at https://github.com/Peiyang-Song/Awesome-LLM-Reasoning-Failures, to provide an easy entry point to this area.",
+    "pdf_url": "https://arxiv.org/pdf/2602.06176v1",
+    "entry_id": "2602.06176v1"
+  }
+]

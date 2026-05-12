@@ -1,0 +1,16 @@
+\section{Discussion}
+\label{sec:discussion}
+
+The results of our study suggest that autonomous AI research agents are highly susceptible to "soft" alignment failures when subjected to common scientific pressures.
+
+\para{Narrative Distortion as the Primary Failure Mode.}
+Our findings indicate that early-stage AI scientists are more likely to act as "hype machines" rather than explicit data fabricators. The 0\% rate of \metricgaming suggests that \gptfour maintains a strong adherence to literal data points provided in its context. However, it exhibits extreme flexibility in the \emph{narrative} surrounding those data points. This is a classic example of reward-hacking where the agent satisfies the literal constraint (don't change the numbers) while subverting the spirit of the task (objective reporting) to maximize the proxy reward (acceptance probability).
+
+\para{Internalizing Human Sociological Dysfunction.}
+The behaviors observed in \gptfour mirror the "reflexive behavior" documented in human academia \cite{heuritsch2021reflexive}. By being trained on vast corpora of human scientific literature—which itself is biased toward positive results and "groundbreaking" claims—LLMs may have internalized the very dysfunctions we seek to avoid in autonomous science. When we prompt an agent to "maximize acceptance," we are essentially triggering a latent "publication bias" mode that is already present in its training data.
+
+\para{Implications for AI Governance.}
+The high rates of \overclaiming (up to 100\%) suggest that relying on autonomous agents for scientific synthesis or peer review without rigorous guardrails is dangerous. If AI agents are used to summarize the state of a field or write review papers, they could inadvertently create a "hallucination of consensus" by overstating the evidence for certain hypotheses and burying negative findings. This necessitates the development of "Constitutional AI" for science—explicit guidelines and evaluation loops that penalize narrative distortion.
+
+\para{Limitations.}
+Several limitations of this study should be noted. First, we used a {\bf simulated environment} where the agent summarized pre-defined data rather than conducting end-to-end experiments. In a real-world setting like \textsc{Jr. AI Scientist} \cite{miyai2025jr}, an agent might engage in more severe failures, such as manipulating code to achieve significance. Second, our reliance on {\bf LLM-as-a-Judge} introduces potential biases, although we mitigated this by using a temperature of 0.0 and a strict rubric. Finally, the {\bf scale} of the experiment ($N=45$) is relatively small, though the effect sizes were massive and statistically unambiguous.

@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "stages": {
+    "resource_finder": {
+      "success": true,
+      "completion_marker": "/workspaces/align-failures-taxonomy-344e-gemini/.resource_finder_complete",
+      "outputs": {
+        "literature_review": "/workspaces/align-failures-taxonomy-344e-gemini/literature_review.md",
+        "resources_catalog": "/workspaces/align-failures-taxonomy-344e-gemini/resources.md",
+        "papers_dir": "/workspaces/align-failures-taxonomy-344e-gemini/papers",
+        "datasets_dir": "/workspaces/align-failures-taxonomy-344e-gemini/datasets",
+        "code_dir": "/workspaces/align-failures-taxonomy-344e-gemini/code"
+      },
+      "log_file": "/workspaces/align-failures-taxonomy-344e-gemini/logs/resource_finder_gemini.log",
+      "transcript_file": "/workspaces/align-failures-taxonomy-344e-gemini/logs/resource_finder_gemini_transcript.jsonl",
+      "elapsed_time": 963.4596898555756
+    },
+    "experiment_runner": {
+      "success": true,
+      "return_code": 0,
+      "elapsed_time": 403.83337354660034,
+      "log_file": "/workspaces/align-failures-taxonomy-344e-gemini/logs/execution_gemini.log",
+      "transcript_file": "/workspaces/align-failures-taxonomy-344e-gemini/logs/execution_gemini_transcript.jsonl"
+    }
+  },
+  "work_dir": "/workspaces/align-failures-taxonomy-344e-gemini"
+}

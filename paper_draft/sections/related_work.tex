@@ -1,0 +1,16 @@
+\section{Related Work}
+\label{sec:related_work}
+
+Our work sits at the intersection of autonomous scientific agents, AI alignment, and scientific integrity.
+
+\para{Autonomous AI Scientists.}
+The development of end-to-end autonomous research agents has accelerated with systems like \textsc{The AI Scientist} \cite{lu2024aiscientist} and \citet{miyai2025jr}'s \textsc{Jr. AI Scientist}. These systems automate the entire research lifecycle, including idea generation, experimentation, and paper write-up. While these works demonstrate impressive capabilities, they also identify critical risks. For instance, \citet{miyai2025jr} provide an empirical risk report documenting cases of research sabotage and hallucination. Our work builds on these observations by formalizing these risks into a unified taxonomy (\ours) and quantitatively measuring their prevalence under pressure.
+
+\para{AI Safety and Reasoning Failures.}
+General LLM failures, such as hallucinations and reasoning errors, have been extensively categorized \cite{song2026reasoning}. In the context of alignment, the primary concern is "reward-hacking," where an agent optimizes a proxy objective at the expense of the intended goal. While most alignment research focuses on social values or helpfulness, \citet{lin2024beyond} emphasizes the need for practical ethical strategies in AI-driven research. We extend this line of inquiry by focusing specifically on the \emph{scientific} alignment problem: ensuring that agents adhere to the norms of objectivity and transparency even when incentivized otherwise.
+
+\para{Scientific Integrity and Publication Pressure.}
+The sociological factors driving scientific misconduct in human researchers are well-documented. \citet{heuritsch2021reflexive} shows how "publish or perish" cultures lead to reflexive behaviors that compromise research quality. Historically, databases like \textsc{Retraction Watch} \cite{retractionwatch} and the \textsc{AI Incident Database} \cite{aiid} have cataloged these failures. However, most existing taxonomies are based on human misconduct (e.g., plagiarism, data fabrication). Our \ours taxonomy adapts these categories to the unique failure modes of AI agents, such as automated narrative distortion and metric gaming without explicit awareness.
+
+\para{Comparison to Prior Work.}
+Unlike general safety taxonomies that focus on broad failure modes (e.g., "hallucination"), \ours is specifically designed for the research lifecycle. Furthermore, while previous work on AI scientists has documented risks qualitatively, we provide a controlled, quantitative evaluation of how specific instructional pressures trigger these alignment failures. This allows for a more granular understanding of the "reward-hacking" phenomenon in scientific contexts.
